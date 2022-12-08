@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    <body>
+        <section id="form">
+            <div class="name">
+                <div class="firstname-container">
+                    <label for="firstname">Enter author's first name: </label>
+                    <input type="text" id="firstname">
+                </div>
+                <div class="midname-container">
+                    <label for="midname">Enter author's middle name (if applicable): </label>
+                    <input type="text" id="midname">
+                </div>
+                <div class="lastname-container">
+                    <label for="lastname">Enter author's last name: </label>
+                    <input type="text" id="lastname">
+                </div>
+                <button type="button" id="addname">Add Name</button>
+            </div>
+            <div class="rest-of-form">
+                <div class="year">
+                    <label for="issueyear">Enter year:</label>
+                    <input type="text" id="issueyear">
+                </div>
+                <div class="article">
+                    <label for="article-title">Enter article title:</label>
+                    <input type="text" id="article-title">
+                </div>
+                <div class="journal">
+                    <label for="journal-title">Enter journal title:</label>
+                    <input type="text" id="journal-title">
+                </div>
+                <div class="volume">
+                    <label for="vol">Enter volume:</label>
+                    <input type="text" id="vol">
+                </div>
+                <div class="issue">
+                    <label for="issue-number">Enter issue number:</label>
+                    <input type="text" id="issue-number">
+                </div>
+                <div class="first-page">
+                    <label for="start-page">Enter start page:</label>
+                    <input type="text" id="start-page">
+                </div>
+                <div class="last-page">
+                    <label for="end-page">Enter end page:</label>
+                    <input type="text" id="end-page">
+                </div>
+            </div>
+        </section>
+        <br>
+        <button type="button" id="generate-apa">Generate APA Citation</button>
+        <br>
+        <div id="citation">
+
+        </div>
+
+
+        <script src="app.js"></script>
+    </body>
+</html>
